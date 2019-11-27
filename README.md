@@ -1,5 +1,5 @@
 
-# How to run your HPC workloads to AWS: a Quickstart
+# How to run your HPC workloads on AWS: a Quickstart
 
 This repository complements the AWS white paper on how to achieve optimal price/performance for your HPC workloads. You can find it here: https://d1.awsstatic.com/HPC2019/Optimal-Price-Performance-for-HPC-Workloads-Aug2019.pdf
 
