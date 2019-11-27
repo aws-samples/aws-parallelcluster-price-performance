@@ -40,7 +40,7 @@ You can find more information here: https://github.com/aws/aws-parallelcluster
 * When the deployment is done:
     * connect to the head node: `$ pcluster ssh mycluster -i <your-ssh-key>`
     * install your code in the `\shared` dir (or in another path that is shared on all the computing nodes)
-    * run your code using your preferred scheduler commands e.g: `$ qsub myjob.sh`
+    * run your code using your preferred scheduler commands e.g: `$ qsub helloworld.sh`
 
 **Congratulations!** you have run your first HPC job on AWS :)
 
