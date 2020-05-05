@@ -173,7 +173,7 @@ This is a role that controls what AWS Resources EC2 instances launched by AWS Ba
 * Type **ContainerService** in the search field for policies
 * Click the checkbox next to **AmazonEC2ContainerServiceforEC2Role** to attach the policy
 * Type **S3** in the search field for policies
-* Click the checkbox next to **AmazonS3ReadOnlyAccess** to attach the policy
+* Click the checkbox next to **AmazonS3ReadOnlyAccess** and **AmazonS3FullAccess** to attach the policy
 
 
 **Note** :
@@ -204,6 +204,7 @@ This is a role used by individual Batch Jobs to specify permissions to AWS resou
 * Attach the following policies.
 	* **bucket-access-policy**
 	* **AmazonS3ReadOnlyAccess**
+	* **AmazonS3FullAccess**
 	* **nextflow-batch-access-policy**
 
 * Click **Next: Tags**. (adding tags is optional)
