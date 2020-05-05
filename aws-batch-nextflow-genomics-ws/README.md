@@ -17,7 +17,7 @@ This workshop assumes that you run in the AWS **Oregon** Region (us-west-2)
 
 * Download the workshop example code:
 
-    * `git clone https://github.com/swajahataziz/aws-batch-nextflow-genomics-ws.git`
+    * `git clone https://github.com/aws-samples/aws-parallelcluster-price-performance/tree/master/aws-batch-nextflow-genomics-ws`
     * `cd aws-batch-nextflow-genomics-ws`
 
 * Create the docker image
