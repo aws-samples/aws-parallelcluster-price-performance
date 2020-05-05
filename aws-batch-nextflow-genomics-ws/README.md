@@ -11,8 +11,8 @@ This workshop assumes that you run in the AWS **Oregon** Region (us-west-2)
 
 * Download the workshop example code:
 
-    * `git clone https://github.com/aws-samples/aws-parallelcluster-price-performance/tree/master/aws-batch-nextflow-genomics-ws`
-    * `cd aws-batch-nextflow-genomics-ws`
+    * `git clone https://github.com/aws-samples/aws-parallelcluster-price-performance.git`
+    * `cd aws-parallelcluster-price-performance/aws-batch-nextflow-genomics-ws`
 
 * Create an S3 Bucket:
     * `BUCKET_POSTFIX=$(uuidgen --random | cut -d'-' -f1)`
