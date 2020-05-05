@@ -356,7 +356,7 @@ This queue is intended for jobs that are urgent and cannot handle potential inte
 * In Environment -> Job Role, select **BatchJobRole**
 * In Container Image text box, enter the URI of the image you created earlier. If you don't have the ARN, you can obtain it by following these steps:
     * Run the following command to get the image details:
-    `aws ecr describe-images --repository-name nextflow`
+    `aws ecr describe-images --repository-name nextflow-${BUCKET_POSTFIX}`
     * You will need the following information to construct and use the image URI at a later stage
     	* registryId
     	* repositoryName
