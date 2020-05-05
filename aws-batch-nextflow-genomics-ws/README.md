@@ -8,17 +8,18 @@ This workshop assumes that you run in the AWS **Oregon** Region (us-west-2)
 
 * Start the Cloud9 IDE and login. It is assumed that all the commands are executed within Cloud9.
     * https://www.hpcworkshops.com/02-aws-getting-started/05-start_cloud9.html
+
+* Download the workshop example code:
+
+    * `git clone https://github.com/aws-samples/aws-parallelcluster-price-performance/tree/master/aws-batch-nextflow-genomics-ws`
+    * `cd aws-batch-nextflow-genomics-ws`
+
 * Create an S3 Bucket:
     * `BUCKET_POSTFIX=$(uuidgen --random | cut -d'-' -f1)`
     * `aws s3 mb s3://batch-workshop-${BUCKET_POSTFIX}`
     * Take note of the bucket name you have just created
 
 ## Prepare the Docker image
-
-* Download the workshop example code:
-
-    * `git clone https://github.com/aws-samples/aws-parallelcluster-price-performance/tree/master/aws-batch-nextflow-genomics-ws`
-    * `cd aws-batch-nextflow-genomics-ws`
 
 * Create the docker image
     * `docker build --tag nextflow:latest .`
