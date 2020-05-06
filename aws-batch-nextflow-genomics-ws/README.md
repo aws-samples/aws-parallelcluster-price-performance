@@ -1,6 +1,6 @@
 # Workshop for Genomics HPC workflow using Nextflow on AWS Batch
 
-This workshop assumes that you run in the AWS **Oregon** Region (us-west-2)
+This workshop assumes that you run in the AWS **Ohio** Region (us-east-2)
 
 ## Workshop setup
 * Login to the Event Engine
