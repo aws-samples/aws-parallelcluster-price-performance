@@ -1,4 +1,4 @@
-# Best practices for HPC on AWS
+# Good practices for HPC on AWS
 
 
 **Abstract:** The goal of this document is to describe the best practices to run HPC workloads efficiently on AWS. This document provides prescriptive instructions that will help in the vast majority of real use-cases; customers can improve application performance in different ways for different use cases. The document focuses on workflows that run on the Linux operating system. Customers can apply some of these recommendations also to Windows workflows. Cost considerations are also explained.
