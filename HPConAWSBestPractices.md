@@ -163,7 +163,7 @@ If you set the billing alarm, you&#39;ll receive an email as soon as your accoun
 
 You can define your Budgets from the AWS Console: [https://console.aws.amazon.com/billing/home#/budgets](https://console.aws.amazon.com/billing/home#/budgets)
 
-## Maximize throughput vs total cost
+## Maximize throughput, not only single application performances
 
 Cost optimization must take into account the throughput (number of completed jobs per month), not only the performance of a single job.
 
